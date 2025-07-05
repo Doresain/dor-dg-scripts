@@ -1,0 +1,26 @@
+name: autobump-patch
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # increment the patch version in module.json
+      - name: bump version
+        run: |
+          jq '.version |= (split(".") | .[2] = ((.[2]|tonumber)+1|tostring) | join("."))' \
+            module.json > module.tmp
+          mv module.tmp module.json
+
+      # commit the change back to main
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: bump patch version [skip ci]"
+
+      # optional: show the new version in logs
+      - name: display version
+        run: jq -r '.version' module.json
