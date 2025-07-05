@@ -28,7 +28,7 @@
   "library": false,
 
   "url": "",
-  "manifest": "https://raw.githubusercontent.com/Doresain/dor-dg-scripts/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Doresain/dor-dg-scripts/master/module.json",
   "download": "https://github.com/Doresain/dor-dg-scripts/archive/refs/heads/master.zip",
   "license": "",
   "readme": "",
