@@ -68,13 +68,12 @@ export function register() {
      * 2. Retitle every Simple Quest window when it renders         *
      * ------------------------------------------------------------ */
     Hooks.on("renderSimpleQuest", (app, html) => {
-        const newTitle = game.i18n.format("simple-quest.title");
+        const newTitle = game.i18n.format("simple-quest.title");   // your key
 
-        // Update Application object
+        /* 1️⃣  keep the Application object up-to-date */
         app.options.title = newTitle;
-        app.title         = newTitle;
 
-        // Update DOM header
+        /* 2️⃣  rewrite the header already rendered in the DOM */
         html.closest(".window-app")
             .find(".window-title")
             .text(newTitle);
