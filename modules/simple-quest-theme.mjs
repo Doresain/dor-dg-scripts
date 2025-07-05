@@ -58,10 +58,8 @@ export function register() {
         for (const [path, value] of Object.entries(REPLACEMENTS)) {
             foundry.utils.setProperty(game.i18n.translations, path, value);
         }
+        Hooks.once("ready", () => ui.notifications.info("FBI SENTINEL Case Management System loaded. Press 'J' to access."));
 
-        ui.notifications.info(
-            "FBI SENTINEL Case Management System loaded. Press 'J' to access."
-        );
     });
 
     /* ------------------------------------------------------------ *
