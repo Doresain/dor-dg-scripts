@@ -7,6 +7,7 @@ import { register as simpleQuestTheme }   from "./modules/simple-quest-theme.mjs
 import { register as simpleQuestMask }   from "./modules/simple-quest-mask.mjs";
 import { register as simpleQuestMapNote } from "./modules/simple-quest-map-note.mjs";
 import { register as mapLayerTile }       from "./modules/map-layer-tile.mjs";
+import { register as lmjeBackground }       from "./modules/lmje-background.mjs";
 
 
 /* ---------- Feature list & human-readable labels -------------- */
@@ -46,6 +47,12 @@ const FEATURES = [
         name: "Map-Layer Tile → Macro",
         hint: "Clicking a specific tile in a scene fires a macro, regardless of layer.",
         init: mapLayerTile
+    },
+    {
+        key:  "lmjeBackground",
+        name: "Lyynix More Journal Extenders Background Fix",
+        hint: "Changes the white BG to a black one.",
+        init: lmjeBackground
     }
     // { key:"something", name:"...", hint:"...", init: something },
 ];
