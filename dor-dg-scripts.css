@@ -1,4 +1,4 @@
 /* Fix the background color for Lyynix enrichers */
-span.LMJE-link {
+.LMJE-link {
     background: rgba(11, 10, 19, 0.9) !important;
 }
