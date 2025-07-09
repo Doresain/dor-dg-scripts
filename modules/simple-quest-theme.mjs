@@ -14,42 +14,42 @@ export function register() {
         /** Path→replacement pairs (dot-notation keys) */
         const REPLACEMENTS = {
             // Tooltips
-            "simple-quest.tooltip.add-quest":           "Add Lead",
+            "simple-quest.tooltip.add-quest":           "Add Case",
             "simple-quest.tooltip.add-lore":            "Add File",
             "simple-quest.tooltip.edit-lore":           "Edit File",
-            "simple-quest.tooltip.edit-quest":          "Edit Lead",
-            "simple-quest.tooltip.delete-quest":        "Delete Lead",
+            "simple-quest.tooltip.edit-quest":          "Edit Case",
+            "simple-quest.tooltip.delete-quest":        "Delete Case",
             "simple-quest.tooltip.delete-lore":         "Delete File",
             "simple-quest.tooltip.share-quest":         "Send to Chat",
-            "simple-quest.tooltip.duplicate-quest":     "Duplicate Lead",
+            "simple-quest.tooltip.duplicate-quest":     "Duplicate Case",
             "simple-quest.tooltip.duplicate-lore":      "Duplicate File",
-            "simple-quest.tooltip.mark-updated":        "Mark Lead as Updated",
+            "simple-quest.tooltip.mark-updated":        "Mark Case as Updated",
 
             // Delete dialogs
-            "simple-quest.deleteQuest.title":           "Delete Lead? - ",
-            "simple-quest.deleteQuest.content":         "Are you sure you want to delete this Lead? This cannot be undone.",
+            "simple-quest.deleteQuest.title":           "Delete Case? - ",
+            "simple-quest.deleteQuest.content":         "Are you sure you want to delete this Case? This cannot be undone.",
             "simple-quest.deleteLore.title":            "Delete File? - ",
             "simple-quest.deleteLore.content":          "Are you sure you want to delete this file? This cannot be undone.",
 
             // Share dialogs
-            "simple-quest.shareQuest.title":            "Send Lead to Chat",
-            "simple-quest.shareQuest.content":          "Are you sure you want to send the 'New Lead' notification to chat?",
-            "simple-quest.shareQuest.chatMessage":      "New Lead Available!",
+            "simple-quest.shareQuest.title":            "Send Case to Chat",
+            "simple-quest.shareQuest.content":          "Are you sure you want to send the 'New Case' notification to chat?",
+            "simple-quest.shareQuest.chatMessage":      "New Case File Available!",
             "simple-quest.shareLore.title":             "Send File to Chat",
             "simple-quest.shareLore.content":           "Are you sure you want to send the 'New File' notification to chat?",
             "simple-quest.shareLore.chatMessage":       "New File Available!",
 
             // Quest update notification
-            "simple-quest.questNotification.text":      "Lead %q has been updated!",
+            "simple-quest.questNotification.text":      "Case %q has been updated!",
 
             // Misc UI strings & welcome screen
-            "simple-quest.moveQuest.error":             "You don't have permission to move Leads to that category.",
+            "simple-quest.moveQuest.error":             "You don't have permission to move Cases to that category.",
             "simple-quest.title":                       "SENTINEL Case Management",
             "simple-quest.default-structure.completed": "File Complete",
             "simple-quest.default-structure.failed":    "Discarded",
             "simple-quest.default-structure.in-progress":"File Open",
             "simple-quest.notifications.playerJournalUpdated": "Agent personal log updated.",
-            "simple-quest.showQuest.title":             "Show Lead",
+            "simple-quest.showQuest.title":             "Show Case",
             "simple-quest.welcomeScreen.title":         "SENTINEL Access Approved.",
             "simple-quest.welcomeScreen.content":       "Welcome to the FBI's SENTINEL Case Management System.<hr>Press <span class='hotkey'>J</span> to open the SENTINEL interface."
         };
