@@ -2,7 +2,7 @@
   "id": "dor-dg-scripts",
   "title": "Dor's Delta Green Scripts",
   "description": "A series of world scripts to support my Delta Green worlds.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     {
       "name": "Dor",
@@ -18,7 +18,9 @@
     "dor-dg-scripts.mjs"
   ],
   "scripts": [],
-  "styles": ["dor-dg-scripts.mjs"],
+  "styles": [
+    "dor-dg-scripts.mjs"
+  ],
   "languages": [],
   "packs": [],
   "relationships": {
