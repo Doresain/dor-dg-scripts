@@ -8,6 +8,7 @@ import { register as simpleQuestMask }   from "./modules/simple-quest-mask.mjs";
 import { register as simpleQuestMapNote } from "./modules/simple-quest-map-note.mjs";
 import { register as mapLayerTile }       from "./modules/map-layer-tile.mjs";
 import { register as lmjeBackground }       from "./modules/lmje-background.mjs";
+import { register as backgroundlessPins }       from "./modules/backgroundless-pins.mjs";
 
 
 /* ---------- Feature list & human-readable labels -------------- */
@@ -53,6 +54,12 @@ const FEATURES = [
         name: "Lyynix More Journal Extenders Background Fix",
         hint: "Changes the white BG to a black one.",
         init: lmjeBackground
+    },
+    {
+        key:  "backgroundlessPins",
+        name: "Backgroundless Pins",
+        hint: "Removes pin backgrounds.",
+        init: backgroundlessPins
     }
     // { key:"something", name:"...", hint:"...", init: something },
 ];
